@@ -1,4 +1,13 @@
 # Deploy Static Website on Ubuntu EC2 with HTTPS
+## Architecture
+
+User → Internet → AWS Security Group → EC2 (Ubuntu) → Nginx → Static Website
+
+## Git Workflow
+
+This project follows a feature-branch workflow:
+- main branch stores stable project state
+- feature branches are used for each implementation stage.
 
 ## Project Overview
 This project demonstrates how to deploy a production-ready static website on AWS EC2 using Ubuntu and Nginx, secured with Let's Encrypt SSL.
