@@ -43,9 +43,16 @@ An RSA key pair was generated to enable secure SSH authentication.
 ## Why These Decisions?
 
 - Ubuntu chosen for stability and community support.
-- t2.micro sufficient for lightweight static workload.
+- t3.micro sufficient for lightweight static workload.
 - SSH restricted to personal IP for security best practice.
 - HTTP/HTTPS open to allow public web traffic.
+
+### Nginx Service Verification
+
+The Nginx service was verified using:
+
+```bash
+sudo systemctl status nginx  
 
 ## Challenges Faced (To Be Added)
 
